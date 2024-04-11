@@ -1,0 +1,29 @@
+{
+    "Agent Tutorial 2": {
+        "checkpoints": [
+            {
+                "steps": 496,
+                "file_path": "results\\XZmoveGrabber1\\Agent Tutorial 2\\Agent Tutorial 2-496.onnx",
+                "reward": -0.25,
+                "creation_time": 1710483745.779129,
+                "auxillary_file_paths": [
+                    "results\\XZmoveGrabber1\\Agent Tutorial 2\\Agent Tutorial 2-496.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 496,
+            "file_path": "results\\XZmoveGrabber1\\Agent Tutorial 2.onnx",
+            "reward": -0.25,
+            "creation_time": 1710483745.779129,
+            "auxillary_file_paths": [
+                "results\\XZmoveGrabber1\\Agent Tutorial 2\\Agent Tutorial 2-496.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.1+cpu"
+    }
+}

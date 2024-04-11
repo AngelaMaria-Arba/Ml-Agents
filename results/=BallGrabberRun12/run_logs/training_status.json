@@ -1,0 +1,29 @@
+{
+    " Agent COntroller": {
+        "checkpoints": [
+            {
+                "steps": 193490,
+                "file_path": "results\\=BallGrabberRun12\\ Agent COntroller\\ Agent COntroller-193490.onnx",
+                "reward": null,
+                "creation_time": 1710391139.265771,
+                "auxillary_file_paths": [
+                    "results\\=BallGrabberRun12\\ Agent COntroller\\ Agent COntroller-193490.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 193490,
+            "file_path": "results\\=BallGrabberRun12\\ Agent COntroller.onnx",
+            "reward": null,
+            "creation_time": 1710391139.265771,
+            "auxillary_file_paths": [
+                "results\\=BallGrabberRun12\\ Agent COntroller\\ Agent COntroller-193490.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.1+cpu"
+    }
+}

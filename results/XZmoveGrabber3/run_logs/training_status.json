@@ -1,0 +1,38 @@
+{
+    "Agent Tutorial 2": {
+        "checkpoints": [
+            {
+                "steps": 499995,
+                "file_path": "results\\XZmoveGrabber3\\Agent Tutorial 2\\Agent Tutorial 2-499995.onnx",
+                "reward": 2.0,
+                "creation_time": 1710486752.1881092,
+                "auxillary_file_paths": [
+                    "results\\XZmoveGrabber3\\Agent Tutorial 2\\Agent Tutorial 2-499995.pt"
+                ]
+            },
+            {
+                "steps": 500032,
+                "file_path": "results\\XZmoveGrabber3\\Agent Tutorial 2\\Agent Tutorial 2-500032.onnx",
+                "reward": 2.0,
+                "creation_time": 1710486752.280269,
+                "auxillary_file_paths": [
+                    "results\\XZmoveGrabber3\\Agent Tutorial 2\\Agent Tutorial 2-500032.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500032,
+            "file_path": "results\\XZmoveGrabber3\\Agent Tutorial 2.onnx",
+            "reward": 2.0,
+            "creation_time": 1710486752.280269,
+            "auxillary_file_paths": [
+                "results\\XZmoveGrabber3\\Agent Tutorial 2\\Agent Tutorial 2-500032.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.1+cpu"
+    }
+}

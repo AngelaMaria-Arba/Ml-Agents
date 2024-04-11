@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1710340514",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\mithu\\MLAgents\\MLvenv\\Scripts\\mlagents-learn --run-id =BallGrabberRun1",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1710340577"
+    },
+    "total": 63.75018479999999,
+    "count": 1,
+    "self": 0.010561099999989665,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08041339999999986,
+            "count": 1,
+            "self": 0.08041339999999986
+        },
+        "TrainerController.start_learning": {
+            "total": 63.659210300000005,
+            "count": 1,
+            "self": 0.00026750000000674845,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 63.6588703,
+                    "count": 1,
+                    "self": 63.6588703
+                },
+                "TrainerController._save_models": {
+                    "total": 7.250000000169621e-05,
+                    "count": 1,
+                    "self": 7.250000000169621e-05
+                }
+            }
+        }
+    }
+}

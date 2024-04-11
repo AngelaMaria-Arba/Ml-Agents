@@ -1,0 +1,47 @@
+{
+    "TrialJump": {
+        "checkpoints": [
+            {
+                "steps": 499996,
+                "file_path": "results\\Run1\\TrialJump\\TrialJump-499996.onnx",
+                "reward": 14.5,
+                "creation_time": 1712746479.4822812,
+                "auxillary_file_paths": [
+                    "results\\Run1\\TrialJump\\TrialJump-499996.pt"
+                ]
+            },
+            {
+                "steps": 999980,
+                "file_path": "results\\Run1\\TrialJump\\TrialJump-999980.onnx",
+                "reward": 4.75,
+                "creation_time": 1712747555.7774699,
+                "auxillary_file_paths": [
+                    "results\\Run1\\TrialJump\\TrialJump-999980.pt"
+                ]
+            },
+            {
+                "steps": 1000017,
+                "file_path": "results\\Run1\\TrialJump\\TrialJump-1000017.onnx",
+                "reward": 10.0,
+                "creation_time": 1712747555.920682,
+                "auxillary_file_paths": [
+                    "results\\Run1\\TrialJump\\TrialJump-1000017.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000017,
+            "file_path": "results\\Run1\\TrialJump.onnx",
+            "reward": 10.0,
+            "creation_time": 1712747555.920682,
+            "auxillary_file_paths": [
+                "results\\Run1\\TrialJump\\TrialJump-1000017.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.1+cpu"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "TrialJump": {
+        "checkpoints": [
+            {
+                "steps": 8499952,
+                "file_path": "results\\Run3\\TrialJump\\TrialJump-8499952.onnx",
+                "reward": 14.13265306122449,
+                "creation_time": 1712770049.821166,
+                "auxillary_file_paths": [
+                    "results\\Run3\\TrialJump\\TrialJump-8499952.pt"
+                ]
+            },
+            {
+                "steps": 8999987,
+                "file_path": "results\\Run3\\TrialJump\\TrialJump-8999987.onnx",
+                "reward": 13.914634146341463,
+                "creation_time": 1712770341.567281,
+                "auxillary_file_paths": [
+                    "results\\Run3\\TrialJump\\TrialJump-8999987.pt"
+                ]
+            },
+            {
+                "steps": 9499977,
+                "file_path": "results\\Run3\\TrialJump\\TrialJump-9499977.onnx",
+                "reward": 14.797413793103448,
+                "creation_time": 1712770586.6695557,
+                "auxillary_file_paths": [
+                    "results\\Run3\\TrialJump\\TrialJump-9499977.pt"
+                ]
+            },
+            {
+                "steps": 9999988,
+                "file_path": "results\\Run3\\TrialJump\\TrialJump-9999988.onnx",
+                "reward": 14.264705882352942,
+                "creation_time": 1712770833.0332236,
+                "auxillary_file_paths": [
+                    "results\\Run3\\TrialJump\\TrialJump-9999988.pt"
+                ]
+            },
+            {
+                "steps": 10000036,
+                "file_path": "results\\Run3\\TrialJump\\TrialJump-10000036.onnx",
+                "reward": 14.266233766233766,
+                "creation_time": 1712770833.066804,
+                "auxillary_file_paths": [
+                    "results\\Run3\\TrialJump\\TrialJump-10000036.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10000036,
+            "file_path": "results\\Run3\\TrialJump.onnx",
+            "reward": 14.266233766233766,
+            "creation_time": 1712770833.066804,
+            "auxillary_file_paths": [
+                "results\\Run3\\TrialJump\\TrialJump-10000036.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.1+cpu"
+    }
+}

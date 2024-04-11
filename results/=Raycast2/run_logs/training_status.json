@@ -1,0 +1,38 @@
+{
+    "Agent Tutorial 3": {
+        "checkpoints": [
+            {
+                "steps": 499948,
+                "file_path": "results\\=Raycast2\\Agent Tutorial 3\\Agent Tutorial 3-499948.onnx",
+                "reward": -0.5714285714285714,
+                "creation_time": 1711542457.9785643,
+                "auxillary_file_paths": [
+                    "results\\=Raycast2\\Agent Tutorial 3\\Agent Tutorial 3-499948.pt"
+                ]
+            },
+            {
+                "steps": 500012,
+                "file_path": "results\\=Raycast2\\Agent Tutorial 3\\Agent Tutorial 3-500012.onnx",
+                "reward": -0.5714285714285714,
+                "creation_time": 1711542458.080749,
+                "auxillary_file_paths": [
+                    "results\\=Raycast2\\Agent Tutorial 3\\Agent Tutorial 3-500012.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500012,
+            "file_path": "results\\=Raycast2\\Agent Tutorial 3.onnx",
+            "reward": -0.5714285714285714,
+            "creation_time": 1711542458.080749,
+            "auxillary_file_paths": [
+                "results\\=Raycast2\\Agent Tutorial 3\\Agent Tutorial 3-500012.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.1+cpu"
+    }
+}

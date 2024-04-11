@@ -1,0 +1,29 @@
+{
+    "TrialMultiSpawn": {
+        "checkpoints": [
+            {
+                "steps": 98043,
+                "file_path": "results\\TrialSpawnMulti\\TrialMultiSpawn\\TrialMultiSpawn-98043.onnx",
+                "reward": 6.642857142857143,
+                "creation_time": 1712224952.886702,
+                "auxillary_file_paths": [
+                    "results\\TrialSpawnMulti\\TrialMultiSpawn\\TrialMultiSpawn-98043.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 98043,
+            "file_path": "results\\TrialSpawnMulti\\TrialMultiSpawn.onnx",
+            "reward": 6.642857142857143,
+            "creation_time": 1712224952.886702,
+            "auxillary_file_paths": [
+                "results\\TrialSpawnMulti\\TrialMultiSpawn\\TrialMultiSpawn-98043.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.1+cpu"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "TrialJump": {
+        "checkpoints": [
+            {
+                "steps": 20595,
+                "file_path": "results\\Run2\\TrialJump\\TrialJump-20595.onnx",
+                "reward": null,
+                "creation_time": 1712764444.8194888,
+                "auxillary_file_paths": [
+                    "results\\Run2\\TrialJump\\TrialJump-20595.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 20595,
+            "file_path": "results\\Run2\\TrialJump.onnx",
+            "reward": null,
+            "creation_time": 1712764444.8194888,
+            "auxillary_file_paths": [
+                "results\\Run2\\TrialJump\\TrialJump-20595.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.1+cpu"
+    }
+}
