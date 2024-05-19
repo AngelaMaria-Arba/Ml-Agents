@@ -430,7 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3804166563304808558}
   m_Layer: 0
-  m_Name: Env
+  m_Name: Env1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -470,7 +470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2049588835659225459
 Transform:
   m_ObjectHideFlags: 0
@@ -849,7 +849,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2454203349820313383, guid: 5c96dd4a865fefe46bf59b130c9897e7, type: 3}
       propertyPath: m_Name
-      value: Plane
+      value: Plane1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190909724309681904, guid: 5c96dd4a865fefe46bf59b130c9897e7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190909724309681904, guid: 5c96dd4a865fefe46bf59b130c9897e7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6190909724309681904, guid: 5c96dd4a865fefe46bf59b130c9897e7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -889,6 +897,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6190909724309681904, guid: 5c96dd4a865fefe46bf59b130c9897e7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190909724309681904, guid: 5c96dd4a865fefe46bf59b130c9897e7, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -964,7 +976,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5117648232701342545, guid: 2bf9b1c3644333d43bef87f3dd1ed9e3, type: 3}
       propertyPath: m_Name
-      value: Agent
+      value: Agent1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
