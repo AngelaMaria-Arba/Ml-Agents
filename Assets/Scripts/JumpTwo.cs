@@ -11,7 +11,12 @@ public class JumpTwo : Agent
     [SerializeField] private List<GameObject> objectSpawnedList = new List<GameObject>();
     public int count = 5;
     public GameObject food;
-
+    /***/
+    public Vector3 startCorner;
+    public Vector3 endCorner;
+    public int rows = 5;
+    public int columns = 5;
+    /***/
     // Agent Variables
     [SerializeField] private float moveSpeed = 6f;
     [SerializeField] private float jumpForce = 2f;
@@ -23,6 +28,8 @@ public class JumpTwo : Agent
     [SerializeField] private Transform envLocation; // env
     Material envMaterial;
     public GameObject env; // plane
+
+
 
     private bool IsCollectingBalls()
     {
@@ -70,25 +77,27 @@ public class JumpTwo : Agent
             RemoveBall(objectSpawnedList);
         }
         Debug.Log("create ball");
+        SpawnBalls();
 
-        for (int i = 0; i < count; i++)
-        {
-            // Generate random position for the ball, avoiding obstacle positions
-            Vector3 ballPosition = GenerateRandomPosition();
-            while (ballPosition == Vector3.zero) { ballPosition = GenerateRandomPosition(); }
+        //for (int i = 0; i < count; i++)
+        //{
+        //    // Generate random position for the ball, avoiding obstacle positions
+        //    Vector3 ballPosition = GenerateRandomPosition();
+        //    while (ballPosition == Vector3.zero) { ballPosition = GenerateRandomPosition(); }
 
-            // Spawning 
-            GameObject newBall = Instantiate(food);
+        //    // Spawning 
+        //    GameObject newBall = Instantiate(food);
 
-            // Child of env
-            newBall.transform.parent = envLocation;
+        //    // Child of env
+        //    newBall.transform.parent = envLocation;
 
-            // Spawn in new Location
-            newBall.transform.localPosition = ballPosition;
+        //    // Spawn in new Location
+        //    newBall.transform.localPosition = ballPosition;
 
-            // Add to list
-            objectSpawnedList.Add(newBall);
-        }
+        //    // Add to list
+        //    objectSpawnedList.Add(newBall);
+        //}
+        count = objectSpawnedList.Count;
     }
 
     private Vector3 GenerateRandomPosition()
@@ -132,7 +141,7 @@ public class JumpTwo : Agent
             if(obj != null) { sensor.AddObservation(obj.transform.localPosition); } else { newSize++; }
             
         }
-        var emptySize = 18 - (objectSpawnedList.Count - newSize) * 3; // Since ball generation is dynamic to fill up the empty slots
+        var emptySize = 15 - (objectSpawnedList.Count - newSize) * 3; // Since ball generation is dynamic to fill up the empty slots
 
         while (emptySize > 0) { sensor.AddObservation(0f); --emptySize; }
     }
@@ -285,5 +294,28 @@ public class JumpTwo : Agent
         //    EndEpisode();
         //    Debug.Log("Obstacle");
         //}
+    }
+    void SpawnBalls()
+    {
+       
+    Vector3 widthVector = (endCorner - startCorner) / columns;
+        Vector3 heightVector = (Vector3.Cross(widthVector, Vector3.up).normalized * (Vector3.Distance(startCorner, endCorner) / rows)).normalized * Vector3.Distance(startCorner, endCorner) / rows;
+
+        for (int i = 0; i < columns; i++)
+        {
+            for (int j = 0; j < rows; j++)
+            {
+                float xRand = Random.Range(-5f, 12f);
+                float zRand = Random.Range(-6f, 6f);
+                Vector3 randomPosition = new Vector3(zRand, 0.3f, xRand);
+
+                Vector3 spawnPosition = startCorner + i * widthVector + j * heightVector + randomPosition;
+                spawnPosition.y = 0.3f;
+                // Add to list
+                objectSpawnedList.Add(Instantiate(food, spawnPosition, Quaternion.identity));
+            }
+            
+        }
+        Debug.Log("Count =" + objectSpawnedList.Count);
     }
 }

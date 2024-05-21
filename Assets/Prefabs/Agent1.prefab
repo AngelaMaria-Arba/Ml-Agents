@@ -448,7 +448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 21
+    VectorObservationSize: 18
     NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 2
@@ -457,7 +457,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 543c52d52123c4a4cbefc5eaa4fe97e0, type: 3}
+  m_Model: {fileID: 0}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: TrialJump
@@ -511,6 +511,10 @@ MonoBehaviour:
   objectSpawnedList: []
   count: 5
   food: {fileID: 8375190726657350936, guid: 2ef758be7e6adfe4c826da5601007646, type: 3}
+  startCorner: {x: 0, y: 0, z: 0}
+  endCorner: {x: 0, y: 0, z: 35}
+  rows: 2
+  columns: 5
   moveSpeed: 6
   jumpForce: 2
   envLocation: {fileID: 3804166563304808558, guid: 12f4cc70ccd7a094ca5629ea6f5619ee, type: 3}
