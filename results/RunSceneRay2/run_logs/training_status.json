@@ -1,0 +1,29 @@
+{
+    "RunScene": {
+        "checkpoints": [
+            {
+                "steps": 19894,
+                "file_path": "results\\RunSceneRay2\\RunScene\\RunScene-19894.onnx",
+                "reward": -1.7857142857142858,
+                "creation_time": 1716367562.9829438,
+                "auxillary_file_paths": [
+                    "results\\RunSceneRay2\\RunScene\\RunScene-19894.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 19894,
+            "file_path": "results\\RunSceneRay2\\RunScene.onnx",
+            "reward": -1.7857142857142858,
+            "creation_time": 1716367562.9829438,
+            "auxillary_file_paths": [
+                "results\\RunSceneRay2\\RunScene\\RunScene-19894.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.0+cpu"
+    }
+}
